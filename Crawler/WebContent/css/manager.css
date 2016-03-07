@@ -1,0 +1,162 @@
+
+/*定义后台页面的css*/
+
+/*设定层的阴影效果*/
+.shadow{
+		filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=120, Strength=10); 
+		background-color: #eee;
+		-moz-box-shadow:2px 2px 5px #969696;
+		 -webkit-box-shadow:2px 2px 5px #969696;
+		  box-shadow:2px 2px 5px #969696;
+}
+/*登录层*/
+#login{
+	margin:0 auto;
+	text-align:center;
+	width:1000px;
+	height:500px;
+	background:url(../images/login/loginbg.png) no-repeat;
+}
+#inputInfo{
+	position:absolute;
+	margin-left:720px;
+	margin-top:200px;
+	z-index:0;
+}
+/*登录按钮样式*/
+.bustyle{
+	background:url(../images/login/bu.png) no-repeat;
+	border:0px;
+	width:75px;
+	height:25px;
+	font-weight:bold;
+	color:white;
+	font-family:微软雅黑;
+	cursor:pointer;
+}
+.getOther:link{
+	text-decoration:none;
+	font-size:12px;
+	color:blue;
+}
+.getOther:visited{
+	text-decoration:none;
+	font-size:12px;
+	color:blue;
+}
+.getOther:hover{
+	text-decoration:none;
+	font-size:12px;
+	color:red;
+}
+/*定义输入框的宽高*/
+.in{
+	width:160px;
+}
+
+/*定义字体*/
+.fo{
+	color:green;
+	font-weight:bold;
+	font-family:微软雅黑;
+
+}
+/*后台登录页面文字层*/
+#com{
+	position：absolute;
+	margin-left:30px;
+	margin-top:660px;
+}
+/*登录失败*/
+.failure{
+		color:red;
+		font-size:12px;
+}
+/*accdion*/
+ .ta tr td{
+	width:160px;
+	text-align:center;
+}
+ .ta tr td a img{
+  	border:0px;
+ }
+ /*连接样式*/
+ a{
+ 	text-decoration:none;
+ 	color:blue;
+ 	font-size:12px;
+ }
+ a:hover{
+ 	text-decoration:none;
+ 	color:red;
+ 	font-size:14px;
+ }
+ a:visited{
+ 	text-decoration:none;
+ 	color:blue;
+ 	font-size:12px;
+ }
+ /*后台表格显示*/
+.tab tr th{
+		background:#e9f8a5;
+		color:#55a4fa;
+		text-align:center;
+		border-collapse:collapse;
+		border:1px solid #55a4fa;
+}
+.tab{
+	border-collapse:collapse;
+	border:1px solid green;
+	text-align:center;
+	width:100%;
+}
+.tab tr td{
+	border-collapse:collapse;
+	border:1px solid #55a4fa;
+}
+/*定义操作引用图片*/
+.img{
+	border:0px;
+	width:25px;
+	height:25px;
+	cursor:pointer;
+	vertical-align:middle;
+}
+/*用户列表显示层*/
+.list{
+	width:100%;
+	height:auto;
+	text-align:center;
+	margin:0 auto;
+	
+}
+
+/*后台字体*/
+.fon{
+	color:blue;
+	
+}
+
+/*设定后台按钮样式*/
+.bu{
+	color:white;
+	width:80px;
+	height:25px;
+	border:0px;
+	font-weight:bold;
+	font-size:14px;
+	font-family:微软雅黑;
+	cursor:pointer;
+	background:url(../images/tab/bu.png);
+}
+/*提示用户填写*/
+.foins{
+	color:red;
+	font-size:12px;
+	
+}
+/*提示信息*/
+.altfo{
+	color:green;
+	font-size:12px;
+	}

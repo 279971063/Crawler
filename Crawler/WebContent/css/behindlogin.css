@@ -1,0 +1,22 @@
+#Layer1 {
+	position:absolute;
+	left:411px;
+	top:100px;
+	width:480px;
+	height:215px;
+	z-index:1;
+	
+	background-repeat:no-repeat;
+}
+input[type="text"]{
+	width:250px;
+	height:35px;
+}
+input[type="password"]{
+	width:250px;
+	height:35px;
+}
+.STYLE6 {font-size: 14px}
+body{
+	background:url(../images/loginbg.png);
+}

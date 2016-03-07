@@ -1,0 +1,33 @@
+/*滚动条样式*/
+body{
+
+	scrollbar-shadow-color:red;
+	scrollbar-arrow-color:red;
+	scrollbar-base-color:#f9adc4;
+  	scrollbar-highlight-color:red;
+	overflow:scroll;
+	background:url(../images/indexBg.png);
+	}
+  .ta tr td{
+	width:160px;
+	text-align:left;
+	}
+   .ta tr td img{
+	   border:0px;
+   }
+   /*定义链接样式*/
+  a:link{
+	   font-size:20px;
+	   text-decoration:none;
+	   color:blue;
+   }
+  a:visited{
+  		font-size:20px;
+  		text-decoration:none;
+  		color:blue;
+  }
+  a:hover{
+  	    font-size:22px;
+  	   text-decoration:none;
+  	   color:red;
+  }
